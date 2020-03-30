@@ -1,0 +1,25 @@
+.reasons {
+    padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
+    min-height: 590px;
+    &__block {
+        display: flex;
+        align-items: center;
+        margin-top: 35px;
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 700;
+        color:$main_color;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #3a3a3a;
+    }
+    &__descr {
+        min-width: 409px;
+        margin-left: 20px;
+    }
+}
