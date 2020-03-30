@@ -1,0 +1,42 @@
+
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    margin-top: 37px;
+    &__link {
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        &:hover {
+            color: $main_color;
+        }
+    }
+    &__item {
+        padding-right: 25px;
+    }
+}
+.header__contacts {
+    margin-top: 11px;
+    text-align: right;
+    &_question {
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &_phone {
+        font-size: 19px;
+        font-weight: 701;
+        color: #ffffff;
+        &:hover {
+            text-decoration: none;
+            color:#fff;
+        }
+    }
+}

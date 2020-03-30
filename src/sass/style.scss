@@ -1,0 +1,20 @@
+@import 'lips/bootstrap-reboot.min';
+@import 'lips/bootstrap-grid.min';
+@import 'lips/fonts';
+
+@import 'base/variables';
+
+
+* {
+    font-family: 'Roboto', 'Roboto-Condensed';
+}
+
+.container {
+    max-width: 1140px;
+}
+
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
