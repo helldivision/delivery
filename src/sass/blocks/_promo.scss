@@ -18,6 +18,7 @@
         text-align: center;
     }
     &__item {
+        margin-top: 27px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -47,11 +48,4 @@ hr.white {
     width: 809px;
     height: 10px;
     height: 1px;
-}
-
-
-.row-promo {
-    display: flex;
-    justify-content: center;
-    margin-top: 27px;
 }
