@@ -1,0 +1,16 @@
+.subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    color:$main_color;
+    &__text {
+        margin-top: 2px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #3a3a3a;
+    }
+    &_work {
+        font-size: 18px;
+        text-align: center;
+    }
+}
