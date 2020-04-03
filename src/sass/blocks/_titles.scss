@@ -4,6 +4,17 @@
     text-transform: uppercase;
     color: #2e2e2e;
     text-align: center;
+    &_white {
+        margin-top: 20px;
+        color: #ffffff;
+        text-transform: none;
+    }
+    &_order {
+        margin-top: 56px;
+        font-size: 28px;
+        font-weight: 400;
+        color: #3a3a3a;
+    }
 }
 
 .undertitle {
@@ -12,4 +23,15 @@
     font-weight: 300;
     color: #2e2e2e;
     text-align: center;
+    &_white {
+        margin-top: 22px;
+        font-size: 19px;
+        color: #ffffff;
+        &_mt18 {
+            margin-top: 18px;
+        }
+    }
+    &__price {
+        margin-top: 17px;
+    }
 }

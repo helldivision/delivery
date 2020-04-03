@@ -1,0 +1,17 @@
+.round{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 102px;
+    border: 1.0px solid #ffffff;
+    border-radius: 100%;
+    &_red {
+        position: absolute;
+        border-color: $main_color;
+        transform: translate(507px, 17px);
+        background-color: #ffff;
+    }
+}
+    
