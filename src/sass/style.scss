@@ -1,6 +1,7 @@
 @import 'lips/bootstrap-reboot.min';
 @import 'lips/bootstrap-grid.min';
 @import 'lips/fonts';
+@import 'lips/slick';
 
 @import 'base/variables';
 
@@ -28,3 +29,5 @@
 @import 'blocks/price';
 @import 'blocks/forms';
 @import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/feed';
