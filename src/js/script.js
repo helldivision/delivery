@@ -19,6 +19,7 @@ function validateForms(form) {
     });
 }
 validateForms('#call-center');
+validateForms('#question');
 
 jQuery(function($){
     $('input[name=phone]').mask("+7 (999) 999-99-99");
@@ -41,4 +42,54 @@ $(document).ready(function(){
             }
         ]
     });
+});
+
+$(window).scroll(function() {
+    if($(this).scrollTop() > 1600){
+        $('.pageup').fadeIn();
+    } else {
+        $('.pageup').fadeOut();
+    };
+});
+
+$("a[href=#up]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+});
+
+$("a[href=#price]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+});
+
+$("a[href=#reasons]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+});
+
+$("a[href=#scheme]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+});
+
+$("a[href=#feedback]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+});
+
+$("a[href=#contacts]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+});
+
+$("a[href=#our-work]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
 });

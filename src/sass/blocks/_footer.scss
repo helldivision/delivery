@@ -1,0 +1,64 @@
+footer {
+    padding: 24px 0 36px 0;
+    min-height: 201px;
+    background-color: #25333c;
+    .footer__img {
+        width: 68px;
+        height: 71px;
+    }
+    .footer__title {
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+}
+.footer__contacts {
+    margin-top: 18px;
+    &_question {
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &_phone {
+        font-size: 19px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+}
+
+hr.down {
+    margin-top: 42px;
+    opacity: 0.3;
+
+}
+
+.web-adress {
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.politics {
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: $main_color;
+}
+
+.autor {
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    &__text {
+        margin-top: 11px;
+        font-size: 13px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}
+
+
+

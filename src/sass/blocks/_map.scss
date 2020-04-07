@@ -1,0 +1,47 @@
+.map {
+    height: 500px;
+    margin-bottom: 0;
+    position: relative;
+}
+.marker {
+    position: absolute;
+    transform: translate(-696px, 187px);
+}
+
+.contacts {
+    margin-left: 26px;
+    padding: 27px 23px 28px 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    transform: translate(719px, -371px);
+    width: 329px;
+    height: 158px;
+    background-color: #ffffff;
+    &::before{
+        content: '';
+        position: absolute;
+        top: calc(50% - 40px);
+        left: -23%;
+        border: 40px solid transparent;
+        border-right: 40px solid #fff;
+    }
+}
+.city {
+    font-size: 16px;
+    font-weight: 700;
+    color: $main_color;
+}
+.adress {
+    font-size: 14px;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+.mail {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: $main_color;
+}
+        
